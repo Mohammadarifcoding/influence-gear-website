@@ -1,1 +1,25 @@
-
+/* basic style */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --font-size : 16px;
+}
+.title{
+    color: #3A3A3A;
+font-size:calc(--font-size * 1.75);
+font-style: normal;
+font-weight: 600;
+line-height: 40px; 
+}
+/* .display-medium{
+    width: 80vw;
+    margin: 0 auto;
+}
+.display-small{
+    width: 75vw;
+    margin: 0 auto;
+} */
