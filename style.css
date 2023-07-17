@@ -191,3 +191,27 @@ letter-spacing: 0.252px;
 .collection-product img{
   width: 100%;
 }
+.see-more {
+  text-align: right;
+  margin-top: 10px;
+ 
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 13px;
+  display: block;
+  width: 100px;
+  transition: border-bottom 0.7s;
+  
+}
+.see-more a{
+  color: rgba(224, 44, 109, 0.87);
+  text-decoration: none;
+}
+.see-more:hover{
+  border-bottom: 2px solid rgba(224, 44, 109, 0.87);
+ 
+
+}
