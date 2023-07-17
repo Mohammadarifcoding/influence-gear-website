@@ -1,10 +1,33 @@
 /* Mobile design */
 
 @media screen and (max-width:576px) {
-    
+    :root{
+        --font-size : 12px;
+    }
+   .header{
+    gap: 100px;
+   }
+    nav{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .header-content{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .header-cover img{
+        width: 100%;
+    }
+    .header-cover{
+        background-size: contain;
+    }
+   
 }
 
 /* Tablet design */
 @media screen and (min-width:577px) and (max-width:900px) {
-    
+    :root{
+        --font-size : 14px;
+    }
+   
 }

@@ -1,19 +1,19 @@
 /* basic style */
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-:root{
-    --font-size : 16px;
+:root {
+  --font-size: 16px;
 }
-.title{
-    color: #3A3A3A;
-font-size:calc(--font-size * 1.75);
-font-style: normal;
-font-weight: 600;
-line-height: 40px; 
+.title {
+  color: #3a3a3a;
+  font-size: calc(var(--font-size) * 1.75);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
 }
 /* .display-medium{
     width: 80vw;
@@ -23,3 +23,97 @@ line-height: 40px;
     width: 75vw;
     margin: 0 auto;
 } */
+/* header style started */
+
+.header {
+  padding: 50px 10vw;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.logo {
+  color: #3a3a3a;
+  font-size: calc(var(--font-size) * 1.5);
+  font-weight: 700;
+}
+.nav-bar {
+  height: 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.nav-ul li a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: calc(var(--font-size));
+  font-weight: 600;
+  padding-bottom: 5px;
+
+}
+.nav-ul li{
+  transition:text-decoration 1s;
+  
+}
+.nav-ul li:hover{
+  text-decoration: underline;
+
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-text .header-title {
+  color: #3a3a3a;
+  font-size: calc(var(--font-size) * 3);
+
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.header-text .header-description {
+  color: #3a3a3a;
+  font-size: calc(var(--font-size) * 0.9);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.header-btn {
+  border-radius: 41px;
+  background: #e02c6d;
+  color: #fff;
+  font-size: calc(var(--font-size));
+  font-weight: 700;
+  padding: 10px 24px;
+  margin-bottom: 20px;
+  width: 160px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  transition: gap 0.1s,width 0.1s;
+}
+
+.header-btn:hover{
+  gap: 20px;
+  width:170px ;
+ 
+}
+
+.header-btn button{
+  background: #e02c6d;
+  color: #fff;
+  border: none;
+}
+
+.header-cover {
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+}
+
